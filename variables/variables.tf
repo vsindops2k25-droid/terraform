@@ -5,7 +5,7 @@ variable "aws_id" {
 
 variable "instance_type" {
     type = string
-    default = ""
+    
 }
 
 variable "ec2_tags" {
