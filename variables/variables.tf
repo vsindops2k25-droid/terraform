@@ -21,14 +21,13 @@ variable "ec2_tags" {
 variable "sg_name" {
     type = string
     default = "allow_all1"
-    description = Security group name for an EC2 instance"
+    description = "Security group name for an EC2 instance"
 }
 
 variable "cidr" {
     type = list
     default = ["0.0.0.0/0"]
-    
-}
+   }
 
 variable "ingress_from_port" {
     type = number
