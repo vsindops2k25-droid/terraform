@@ -5,7 +5,7 @@ variable "aws_id" {
 
 variable "instance_type" {
     type = string
-    default = "t3.micro"
+    default = ""
 }
 
 variable "ec2_tags" {
