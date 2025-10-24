@@ -1,0 +1,25 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# *
+# Terraform-generated files and directories
+.terraform/
+.terraform.tfstate.lock.info
+*.tfstate
+*.tfstate.*.backup
+*.tfplan
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Override files (if not intended for version control)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local configuration files
+.terraformrc
+terraform.rc
