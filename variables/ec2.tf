@@ -1,6 +1,6 @@
 resource "aws_instance" "terraform" {
   ami           = var.aws_id
-  instance_type = var.instnace_type
+  instance_type = var.instance_type
   vpc_security_group_ids = [aws_security_group.allow_all1.id]
   tags = var.ec2_tags
 }

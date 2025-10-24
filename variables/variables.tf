@@ -3,7 +3,7 @@ variable "aws_id" {
     default = "ami-09c813fb71547fc4f"
  }
 
-variable "instnace_type" {
+variable "instance_type" {
     type = string
     default = "t3.micro"
 }
